@@ -6,7 +6,7 @@ public class Servico {
 
 
     //busca um produto pelo id e caso esse produto exista, atualiza a quantidade em estoque
-    public Produto atualizarEstoque(Long id, int quantidadeAlterada) {
+    public Produto atualizarEstoque(Long id, int quantidadeRecebida) {
 
         Produto produto = repositorio.findById(id).orElseThrow(() -> new RuntimeException("Produto não encontrado"));
 

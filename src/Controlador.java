@@ -11,8 +11,8 @@ public class Controlador {
     }
 
     //abstração do metodo de serviço para atualizar o estoque de produtos
-    public Produto atualizarEstoque(Long id, int quantidade) {
-        return produtoServico.atualizarEstoque(id, quantidade);
+    public Produto atualizarEstoque(Long id, int quantidadeRecebida) {
+        return produtoServico.atualizarEstoque(id, quantidadeRecebida);
     }
 
     //abstração do metodo de serviço para listar produtos com estoque baixo
