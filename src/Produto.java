@@ -6,7 +6,7 @@ public class Produto {
     private Long id;
 
     private String nome;
-    private int quantidade;
+    private int quantidadeRecebida;
     private int limiteMinimoEstoque;
     private boolean estoqueBaixo;
 
